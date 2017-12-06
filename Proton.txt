@@ -1,0 +1,35 @@
+
+PROTON
+
+A cosa serve Proton : garantisce di interfarcciarsi con vari sistemi,con proton si possono dividere il carico
+
+di eventi, si possono elaborare più carichi di eventi o dividere la logica, per esempio si può elaborare la stessa
+
+istanza di eventi contamporaneamente da diversi operatori , in sostanza noi con proton abbiamo una gestione di eventi 
+
+molto più semplificata in più grazie a proton possiamo avere una divisione tra logica e servizi per specifici abbienti 
+
+si può decidere anche l'ordine di salvataggio .
+
+PROTON STRUTTURA :
+
+Con proton si possono definire sia creatori che consumatori degli eventi, i primi creano dati sugli eventi i secondi 
+
+consumano i dati dell'evento,durante duildtime di proton vengono definite cosi addattori input output queste edentità
+
+fisiche vengo trasformate in edentità logiche che in proton vengono chiamate istanze dell'addattatore (adpters istance)
+
+questi addattori usano un anbiemte specifico,per connettersi all'ambiente proprio di proton
+
+per ciascun producer viene definito un parametro di input ,che definisce come estrarre i dati dalla risorsa di origine 
+
+come formattare i dati.L'implementazione J2SE del runtime di Proton include un socket di input e output
+
+server, che consentono ai connettori del server di input e di output di comunicare con
+
+runtime usando il meccanismo dei socket.
+
+PRINCIPI DI PROGETTAZIONE DEGLI ADATTATORI (ADPTERS):
+
+
+
